@@ -653,7 +653,7 @@ function validate(value) {
 
 
 window.onbeforeunload = function (e) {
-    storeInLocalStorage
+    storeInLocalStorage();
 };
 
 
